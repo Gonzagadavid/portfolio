@@ -14,7 +14,7 @@ const Content = props => {
     <main className='Content'>
       <Header text='David Gonzaga da Silva' />
       <Switch>
-        <Route exact path='/'>
+        <Route path='/portfolio'>
           <Home />
         </Route>
         <Route path='/habilidades'>
@@ -30,7 +30,7 @@ const Content = props => {
           <OutrosProjetos />
         </Route>
         <Route path='*'>
-          <Home />
+          <NotFound />
         </Route>
       </Switch>
     </main>
