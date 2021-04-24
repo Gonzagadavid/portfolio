@@ -7,6 +7,11 @@ const ProjetosPessoais = props => {
     <div className='contents'>
       <h2>Projetos de Iniciativa Pessoal</h2>
       <ProjectCard
+        title='Portfólio com React JS (esta página)' tec='react js css'
+        description='Meu portfólio usando React JS, contruindo componentes e os utilizando da maneira mais proveitosa possível.'
+        path='https://github.com/Gonzagadavid/portfolio'
+      />
+      <ProjectCard
         title='IMC, IAC e Peso Ideal' tec='js html css'
         description='Calcula o IMC, IAC e o peso ideal para o usuário'
         path='https://github.com/Gonzagadavid/IMC-IAC-ideal-weight'
