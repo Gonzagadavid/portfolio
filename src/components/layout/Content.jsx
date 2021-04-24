@@ -29,9 +29,9 @@ const Content = props => {
         <Route path='/outros_projetos'>
           <OutrosProjetos />
         </Route>
-        {/* <Route path='*'>
-          <NotFound />
-        </Route> */}
+        <Route path='*'>
+          <Home />
+        </Route>
       </Switch>
     </main>
   )
