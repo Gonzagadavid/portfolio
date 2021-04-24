@@ -7,7 +7,7 @@ import ProjetosCursos from '../../views/contents/ProjetosCursos'
 import ProjetosPessoais from '../../views/contents/ProjetosPessoais'
 import './Content.css'
 import Header from '../Header'
-i// mport NotFound from '../../views/contents/NotFound'
+// import NotFound from '../../views/contents/NotFound'
 
 const Content = props => {
   return (
