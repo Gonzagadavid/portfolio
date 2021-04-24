@@ -8,7 +8,7 @@ const ProjetosPessoais = props => {
       <h2>Projetos de Iniciativa Pessoal</h2>
       <ProjectCard
         title='Portfólio com React JS (esta página)' tec='react js css'
-        description='Meu portfólio usando React JS, contruindo componentes e os utilizando da maneira mais proveitosa possível.'
+        description='Meu portfólio com React JS, contruindo componentes e os utilizando da maneira mais proveitosa possível.'
         path='https://github.com/Gonzagadavid/portfolio'
       />
       <ProjectCard
