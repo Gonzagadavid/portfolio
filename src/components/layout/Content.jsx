@@ -7,7 +7,7 @@ import ProjetosCursos from '../../views/contents/ProjetosCursos'
 import ProjetosPessoais from '../../views/contents/ProjetosPessoais'
 import './Content.css'
 import Header from '../Header'
-import NotFound from '../../views/contents/NotFound'
+i// mport NotFound from '../../views/contents/NotFound'
 
 const Content = props => {
   return (
@@ -29,11 +29,8 @@ const Content = props => {
         <Route path='/outros_projetos'>
           <OutrosProjetos />
         </Route>
-        <Route path='/portfolio'>
-          <Home />
-        </Route>
         <Route path='*'>
-          <NotFound />
+          <Home />
         </Route>
       </Switch>
     </main>
