@@ -9,7 +9,7 @@ const Menu = props => {
   return (
     <div className='Menu'>
       <nav>
-        <Link to='/'><Image src={Foto} alt='foto de David' /></Link>
+        <Link to='/portfolio'><Image src={Foto} alt='foto de David' /></Link>
         <Contact path='https://github.com/Gonzagadavid' text='GitHub' icon='github' />
         <Contact path='https://www.linkedin.com/in/david-gonzaga/' text='LinkedIn' icon='linkedin' />
         <h4>gonzagadaviddev@gmail.com</h4>
