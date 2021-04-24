@@ -1,0 +1,36 @@
+.Header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 20%;
+}
+
+.Header h1 {
+  font-size: 80px;
+  font-weight:normal;
+  font-style: oblique;
+} 
+
+@media (max-width: 1210px) {
+  .Header h1 {
+    font-size: 60px;
+  }
+}
+
+@media (max-width: 675px) {
+  .Header h1 {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 675px) {
+  .Header h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 375px) {
+  .Header h1 {
+    font-size: 25px;
+  }
+}

@@ -1,0 +1,51 @@
+.ProjectCard{
+  box-shadow:  5px 10px 10px rgb(0, 0, 0);
+  margin-top: 40px;
+  margin-bottom: 50px;
+  background:linear-gradient(0deg, rgb(23, 18, 49), rgb(0, 0, 0));
+
+}
+
+.ProjectCard h4 {
+  text-align: center;
+  font-size: 40px;
+  margin: 0px;
+  padding: 5px 0px;
+  font-weight: normal;
+}
+
+.ProjectCard em {
+  display: inline-block;
+  padding: 20px ;
+}
+
+.ProjectCard a {
+  width: 100%;
+  display: inline-block;
+  text-decoration: none;
+  transition-property: color;
+  transition-property: background-color;
+  transition-duration: 0.8s;
+}
+
+.ProjectCard a:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(23, 18, 49);
+}
+
+.icons {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 60px;
+}
+
+.icons p {
+  padding: 0px 3px 10px ;
+  margin: 0px;
+}
+
+@media (max-width: 1210px) {
+  .ProjectCard h4 {
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,53 @@
+.Image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+  width: 350px;
+}
+
+.Image img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: solid rgba(255, 255, 255, 0.1) 3px;
+  transition-property: border-color;
+  transition-duration: 0.5s;
+}
+
+.Image img:hover {
+  border-color: rgb(255, 255, 255);
+}
+
+@media (max-width: 1210px) {
+  .Image {
+    height: 200px;
+    width: 300px;
+  }
+  
+  .Image img {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 900px) {
+  .Image {
+    height: 120px;
+    width: 120px;
+    float: left;
+    margin: 5px;
+  }
+
+  .Image img {
+    width: 120px;
+    height: 120px;
+  }
+}
+
+@media (max-width: 750px) {
+  .Image {
+    display: none;
+  }
+}
