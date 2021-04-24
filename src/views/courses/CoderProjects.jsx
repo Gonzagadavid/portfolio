@@ -12,7 +12,7 @@ const CoderProjects = props => {
         path='https://github.com/Gonzagadavid/calculator-mac-OS-with-ReactJS'
       />
       <ProjectCard
-        title='Palavras mais faladas com JavaScript Vannila' tec='js'
+        title='Palavras mais faladas com JavaScript Vanilla' tec='js'
         description='Neste projeto foi fornecido as legendas de uma série de televisão e foram organizada as palavras com a quantidade de vezes em que foram pronunciadas e postado em um arquivo json'
         path='https://github.com/Gonzagadavid/most-spoken-words'
       />
