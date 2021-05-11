@@ -8,7 +8,7 @@ const TrybeProjects = props => {
       <h3>Projetos Trybe</h3>
       <ProjectCard
         title='Color Guess' tec='js html css'
-        description='Projeto de avaliação feito durante o curso da Trybe, buscando colocar em prática o aprendizado de criação de elementos HTML pelo JavaScript , onde também enxerguei a oportunidade de colocar alguns conhecimentos em prática e tornar o jogo mais interessante Sendo assim, o recorde fica salvo no localStorage, sem mais que uma tentativa na mesma sequência de cor e pode diminuir e aumentar a dificuldade com a quantidade de cor e com isso influenciar na pontuação.'
+        description='Projeto de avaliação feito durante o curso da Trybe, buscando colocar em prática o aprendizado de criação de elementos HTML pelo JavaScript. O recorde fica salvo no localStorage, uma tentativa por sequência de cor e pode diminuir e aumentar a dificuldade.'
         path='https://github.com/Gonzagadavid/color-guess'
       />
       <ProjectCard
