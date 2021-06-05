@@ -9,7 +9,7 @@ const ProjetosPessoais = props => {
       <ProjectCard
         title='Memory Card Game' tec='js html css'
         description='O usuário tem que encontrar os pares das cartas, o tempo é cronometrado e os movimentos contados, o recorde que é salvo no localStorage do navegador'
-        path='https://github.com/Gonzagadavid/memory-card-game'
+        path='https://gonzagadavid.github.io/memory-card-game/'
       />
       <ProjectCard
         title='JavaScript Matrix' tec='js html css'
