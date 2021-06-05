@@ -7,6 +7,11 @@ const ProjetosPessoais = props => {
     <div className='contents'>
       <h2>Projetos de Iniciativa Pessoal</h2>
       <ProjectCard
+        title='Memory Card Game' tec='js html css'
+        description='O usuário tem que encontrar os pares das cartas, o tempo é cronometrado e os movimentos contados, o recorde que é salvo no localStorage do navegador'
+        path='https://github.com/Gonzagadavid/memory-card-game'
+      />
+      <ProjectCard
         title='JavaScript Matrix' tec='js html css'
         description='Nesse projeto de iniciativa pessoal, busquei desenvolver praticamente tudo usando JavaScript, inclusive tamanho das fontes e a divisão da tela'
         path='https://github.com/Gonzagadavid/JavaScript-Matrix'
@@ -29,7 +34,7 @@ const ProjetosPessoais = props => {
       <ProjectCard
         title='Linear Gradiente CSS' tec='js html css'
         description='Auxilia na escolha da cores do linear gradiente para usar no css, disponibilizando o código'
-        path='https://github.com/Gonzagadavid/linear-gradient-CSS'
+        path='../../../projects/background-gradient/index.html'
       />
       <ProjectCard
         title='Calculadora Simples' tec='js html css'
