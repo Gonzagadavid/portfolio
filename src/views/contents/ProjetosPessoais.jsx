@@ -14,7 +14,7 @@ const ProjetosPessoais = props => {
       <ProjectCard
         title='JavaScript Matrix' tec='js html css'
         description='Nesse projeto de iniciativa pessoal, busquei desenvolver praticamente tudo usando JavaScript, inclusive tamanho das fontes e a divisão da tela'
-        path='https://github.com/Gonzagadavid/JavaScript-Matrix'
+        path='https://gonzagadavid.github.io/JavaScript-Matrix/'
       />
       <ProjectCard
         title='Portfólio com React JS (esta página)' tec='react js css'
@@ -26,15 +26,15 @@ const ProjetosPessoais = props => {
         description='Este projeto auxilia na escolha da cores do linear gradiente para usar no css, disponibilizando o código'
         path='https://gonzagadavid.github.io/linear-gradient-CSS/'
       />
+       <ProjectCard
+        title='Cálculo de Juros' tec='js html css'
+        description='Calcula o juros simples e o juros composto de forma detalhada ou simplificada'
+        path='https://github.com/Gonzagadavid/interest-calculation'
+      />
       <ProjectCard
         title='IMC, IAC e Peso Ideal' tec='js html css'
         description='Calcula o IMC, IAC e o peso ideal para o usuário'
         path='https://github.com/Gonzagadavid/IMC-IAC-ideal-weight'
-      />
-      <ProjectCard
-        title='Cálculo de Juros' tec='js html css'
-        description='Calcula o juros simples e o juros composto de forma detalhada ou simplificada'
-        path='https://github.com/Gonzagadavid/interest-calculation'
       />
       <ProjectCard
         title='Calculadora Simples' tec='js html css'
