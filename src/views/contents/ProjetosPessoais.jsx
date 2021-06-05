@@ -34,7 +34,7 @@ const ProjetosPessoais = props => {
       <ProjectCard
         title='Linear Gradiente CSS' tec='js html css'
         description='Auxilia na escolha da cores do linear gradiente para usar no css, disponibilizando o código'
-        path='../../../projects/background-gradient/index.html'
+        path='https://github.com/Gonzagadavid/linear-gradient-CSS'
       />
       <ProjectCard
         title='Calculadora Simples' tec='js html css'
