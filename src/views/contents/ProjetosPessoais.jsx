@@ -7,6 +7,11 @@ const ProjetosPessoais = props => {
     <div className='contents'>
       <h2>Projetos de Iniciativa Pessoal</h2>
       <ProjectCard
+        title='CSV to JSON' tec='js html css'
+        description='o usuário pode converter arquivos no formato csv para json e json para csv, Permitindo upload para a conversão e o download do arquivo convertido.'
+        path='https://gonzagadavid.github.io/CSV-To-JSON/'
+      />
+      <ProjectCard
         title='Memory Card Game' tec='js html css'
         description='O usuário tem que encontrar os pares das cartas, o tempo é cronometrado e os movimentos contados, o recorde que é salvo no localStorage do navegador'
         path='https://gonzagadavid.github.io/memory-card-game/'
