@@ -7,8 +7,13 @@ const ProjetosPessoais = props => {
     <div className='contents'>
       <h2>Projetos de Iniciativa Pessoal</h2>
       <ProjectCard
+        title='Sudoku' tec='js html css'
+        description='Através de um array de arrays recebido recebidos via API, o jogo é criado dinamicamente. Verificando possibilidades a cada interação e mudança feita pelo usuário'
+        path='https://gonzagadavid.github.io/sudoku/'
+      />
+      <ProjectCard
         title='CSV to JSON' tec='js html css'
-        description='o usuário pode converter arquivos no formato csv para json e json para csv, Permitindo upload para a conversão e o download do arquivo convertido.'
+        description='o usuário pode converter arquivos no formato csv para json e json para csv, Permitindo upload para a conversão e o download do arquivo convertido'
         path='https://gonzagadavid.github.io/CSV-To-JSON/'
       />
       <ProjectCard

@@ -2,18 +2,24 @@
   margin: 0 0 100px;
   box-shadow:  5px 10px 10px rgb(0, 0, 0);
   background:linear-gradient(0deg, rgb(23, 18, 49), rgb(0, 0, 0));
+  display: flex;
+  
 }
 
 .MenuCursos nav{
+  display: flex;
+  justify-content: space-around;
   flex: 1;
 }
 
 .MenuCursos ul {
   display: flex;
+  justify-content: space-around;
   flex-direction: row;
   list-style: none;
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
 .Menu li {
@@ -22,10 +28,12 @@
 
 .MenuCursos li a {
   flex:1;
-  display: inline-block;
+  display: flex;
   text-align: center;
   max-width: 190px;
   padding: 20px;
+  justify-content: center;
+  flex-direction: column;
   text-decoration: none;
   transition-property: color;
   transition-property: background-color;
@@ -33,6 +41,7 @@
 }
 
 .MenuCursos img {
+  margin: 10px;
   width: 100px;
   height: 100px;
   object-fit: cover;
@@ -45,6 +54,7 @@
   background-color: white;
   color: rgb(23, 18, 49);
 }
+
 
 @media (max-width: 1210px) {
   .MenuCursos {
