@@ -1,13 +1,14 @@
 import React from 'react'
 import { Switch, Route } from 'react-router-dom'
 import ScrollToMiddle from '../../functions/ScrollToMiddle'
-import DIOProjects from './DIOProjects'
-import TrybeProjects from './TrybeProjects'
-import CoderProjects from './CoderProjects'
-import '../contents/contents.css'
-import SerfrontProjects from './SerfrontProjects'
 import Initial from './Initial'
-import SantProjects from './SantProjects'
+import ShowProjects from '../../components/ShowProjects';
+import cod3rProjects from '../../data/projects/cod3rProjects';
+import dioProjects from '../../data/projects/dioProjects';
+import santProjects from '../../data/projects/santProjects';
+import serFrontendProjects from '../../data/projects/serFrontendProjects';
+import trybeProjects from '../../data/projects/trybeProjects';
+import '../contents/contents.css'
 
 const ProjetosContent = props => {
   return (
@@ -15,23 +16,23 @@ const ProjetosContent = props => {
       <Switch>
         <Route path='/projetos_cursos/projetos-trybe'>
           <ScrollToMiddle />
-          <TrybeProjects />
+          <ShowProjects showProjects={trybeProjects} />
         </Route>
         <Route path='/projetos_cursos/projetos-dio'>
           <ScrollToMiddle />
-          <DIOProjects />
+          <ShowProjects showProjects={dioProjects} />
         </Route>
         <Route path='/projetos_cursos/projetos-coder'>
           <ScrollToMiddle />
-          <CoderProjects />
+          <ShowProjects showProjects={cod3rProjects} />
         </Route>
         <Route path='/projetos_cursos/projetos-serfrentend'>
           <ScrollToMiddle />
-          <SerfrontProjects />
+          <ShowProjects showProjects={serFrontendProjects} />
         </Route>
         <Route path='/projetos_cursos/projetos-santana'>
           <ScrollToMiddle />
-          <SantProjects />
+          <ShowProjects showProjects={santProjects} />
         </Route>
         <Route path='/'>
           <Initial />

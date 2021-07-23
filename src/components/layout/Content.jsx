@@ -6,8 +6,9 @@ import ProjetosCursos from '../../views/contents/ProjetosCursos'
 import './Content.css'
 import Header from '../Header'
 import ShowProjects from '../ShowProjects';
-import personalProjects from '../../data/personalProjects'
-import otherProjects from '../../data/otherProjects';
+import otherProjects from '../../data/projects/otherProjects';
+import personalProjects from '../../data/projects/personalProjects';
+
 
 const Content = props => {
   return (
