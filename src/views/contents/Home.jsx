@@ -5,17 +5,17 @@ const Home = () => (
   <div className="Home contents">
     <p>
       Resido em
-      <strong>São José dos Campos - São Paulo - Brasil</strong>
+      <strong> São José dos Campos - São Paulo - Brasil</strong>
       , ainda jovem, tive a oportunidade de estudar e atuar na área técnica de mecânica industrial; e hoje, diante da
-      <strong>era da informação</strong>
+      <strong> era da informação</strong>
       , apaixonei-me pelo
-      <strong>desenvolvimento web</strong>
+      <strong> desenvolvimento web</strong>
       {' '}
       e tenho mergulhado com muita satisfação, no conteúdo e em tudo que envolve essa área. Além disso, sinto-me atraído pelas
-      <strong>metologias ágeis das empresas</strong>
+      <strong> metologias ágeis das empresas</strong>
       {' '}
       e quero fazer parte desse grupo que visa facilitar, conectar e melhorar a vida das pessoas através da
-      <strong>tecnologia</strong>
+      <strong> tecnologia</strong>
       , tornando o mundo um lugar melhor de se viver.
     </p>
     <div className="phrase">
