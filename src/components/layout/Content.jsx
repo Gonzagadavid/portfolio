@@ -1,39 +1,32 @@
-import React from 'react'
-import { Switch, Route, Redirect } from 'react-router-dom'
-import Habilidades from '../../views/contents/Habilidades'
-import Home from '../../views/contents/Home'
-import OutrosProjetos from '../../views/contents/OutrosProjetos'
-import ProjetosCursos from '../../views/contents/ProjetosCursos'
-import ProjetosPessoais from '../../views/contents/ProjetosPessoais'
-import './Content.css'
-import Header from '../Header'
+import React from 'react';
+import { Switch, Route, Redirect } from 'react-router-dom';
+import Skills from '../../views/contents/Skills';
+import Home from '../../views/contents/Home';
+import ProjetosCursos from '../../views/contents/ProjetosCursos';
+import './Content.css';
+import Header from '../Header';
+import ShowProjects from '../ShowProjects';
+import otherProjects from '../../data/projects/otherProjects';
+import personalProjects from '../../data/projects/personalProjects';
 
-const Content = props => {
-  return (
-    <main className='Content'>
-      <Header text='David Gonzaga da Silva' />
-      <Switch>
-        <Route exact path='/'>
-          <Home />
-        </Route>
-        <Route path='/habilidades'>
-          <Habilidades />
-        </Route>
-        <Route path='/projetos_pessoais'>
-          <ProjetosPessoais />
-        </Route>
-        <Route path='/projetos_cursos'>
-          <ProjetosCursos />
-        </Route>
-        <Route path='/outros_projetos'>
-          <OutrosProjetos />
-        </Route>
-        <Route path='*'>
-          <Redirect to='/' />
-        </Route>
-      </Switch>
-    </main>
-  )
-}
+const Content = () => (
+  <main className="Content">
+    <Header text="David Gonzaga da Silva" />
+    <Switch>
+      <Route exact path="/" component={Home} />
+      <Route path="/habilidades" component={Skills} />
+      <Route path="/projetos_pessoais">
+        <ShowProjects showProjects={personalProjects} />
+      </Route>
+      <Route path="/projetos_cursos" component={ProjetosCursos} />
+      <Route path="/outros_projetos">
+        <ShowProjects showProjects={otherProjects} />
+      </Route>
+      <Route path="*">
+        <Redirect to="/" />
+      </Route>
+    </Switch>
+  </main>
+);
 
-export default Content
+export default Content;
