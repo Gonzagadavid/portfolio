@@ -1,6 +1,6 @@
 import React from 'react';
 import { Switch, Route, Redirect } from 'react-router-dom';
-import Habilidades from '../../views/contents/Habilidades';
+import Skills from '../../views/contents/Skills';
 import Home from '../../views/contents/Home';
 import ProjetosCursos from '../../views/contents/ProjetosCursos';
 import './Content.css';
@@ -14,7 +14,7 @@ const Content = () => (
     <Header text="David Gonzaga da Silva" />
     <Switch>
       <Route exact path="/" component={Home} />
-      <Route path="/habilidades" component={Habilidades} />
+      <Route path="/habilidades" component={Skills} />
       <Route path="/projetos_pessoais">
         <ShowProjects showProjects={personalProjects} />
       </Route>

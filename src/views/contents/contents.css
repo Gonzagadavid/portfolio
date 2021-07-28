@@ -36,15 +36,21 @@
   font-style: italic;
 }
 
-.Habilidades{
+.Skills{
   width: 80%;
   margin: auto;
 }
 
-.Habilidades li {
-  font-size: 30px;
+.Skills li {
+  font-size: 35px;
   line-height: 2;
   font-weight: 500;
+  list-style: inside;
+  padding: 10px 50px;
+}
+
+.Skills h3 {
+  font-size: 50px;
 }
 
 .notfound {
@@ -65,7 +71,7 @@
     font-size: 30px;
   }
 
-  .Habilidades li {
+  .Skills li {
     font-size: 20px;
   }
 }

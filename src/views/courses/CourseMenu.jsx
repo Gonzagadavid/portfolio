@@ -1,15 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../contents/contents.css';
-import './MenuCursos.css';
+import './CourseMenu.css';
 import Trybe from '../../images/trybe.jpeg';
 import DIO from '../../images/Dio.png';
 import Coder from '../../images/coder.png';
 import Sant from '../../images/node.png';
 import SerFront from '../../images/serFrontend.jpeg';
 
-const MenuCursos = () => (
-  <div className="MenuCursos">
+const CourseMenu = () => (
+  <div className="CourseMenu">
     <nav>
       <ul>
         <li>
@@ -47,4 +47,4 @@ const MenuCursos = () => (
   </div>
 );
 
-export default MenuCursos;
+export default CourseMenu;
