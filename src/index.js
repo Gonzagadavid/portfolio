@@ -1,11 +1,14 @@
 import React from 'react';
 import ReactDom from 'react-dom';
-import App from './views/App';
+import { BrowserRouter as Router } from 'react-router-dom';
+import App from './App';
 import './index.css';
 
 const root = document.getElementById('root');
 
 ReactDom.render(
-  <App />,
+  <Router>
+    <App />
+  </Router>,
   root,
 );

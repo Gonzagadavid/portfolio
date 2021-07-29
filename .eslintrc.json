@@ -22,6 +22,8 @@
         "react/prop-types": "off",
         "max-len": "off",
         "react/jsx-filename-extension": "off",
-        "react/no-unescaped-entities": "off"
+        "react/no-unescaped-entities": "off",
+        "import/no-extraneous-dependencies": "off",
+        "no-undef": "off"
     }
 }
