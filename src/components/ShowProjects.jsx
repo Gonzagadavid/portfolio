@@ -8,7 +8,7 @@ const ShowProjects = ({ showProjects: { projects, titleCourse } }) => (
     {
         projects.map(({
           title, tec, description, path,
-        }) => <ProjectCard title={title} tec={tec} description={description} path={path} />)
+        }) => <ProjectCard title={title} tec={tec} description={description} path={path} key={path} />)
       }
   </div>
 );
