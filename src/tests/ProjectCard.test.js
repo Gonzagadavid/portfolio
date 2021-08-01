@@ -1,4 +1,6 @@
-import { fireEvent, render, screen } from '@testing-library/react';
+import {
+  cleanup, fireEvent, render, screen,
+} from '@testing-library/react';
 import * as React from 'react';
 import ProjectCard from '../components/ProjectCard';
 import personalProjects from '../data/projects/personalProjects';
@@ -13,7 +15,9 @@ describe('verifica a renderizacao e o funcionamento do componente ProjectCard', 
     render(<ProjectCard title={teste.title} tec="js" description={teste.description} path={teste.path} />);
   });
 
-  it('verifica a url do link e se os eventos chamam a função que altera o estado', () => {
+  afterEach(cleanup);
+
+  it('verifica a url do link e se os eventos chamam a funcao que altera o estado', () => {
     const link = screen.getByRole('link');
     expect(link).toBeInTheDocument();
     expect(link).toHaveAttribute('href', teste.path);
@@ -24,7 +28,7 @@ describe('verifica a renderizacao e o funcionamento do componente ProjectCard', 
     expect(setState).toHaveBeenCalledTimes(2);
   });
 
-  it('verifica se o titulo, descrição e icon são renderizado corretamente', () => {
+  it('verifica se o titulo, descricao e icon sao renderizado corretamente', () => {
     const title = screen.getByRole('heading', { level: 4 });
     expect(title).toBeInTheDocument();
     expect(title).toHaveTextContent(teste.title);

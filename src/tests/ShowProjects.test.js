@@ -3,7 +3,7 @@ import React from 'react';
 import ShowProjects from '../components/ShowProjects';
 import personalProjects from '../data/projects/personalProjects';
 
-describe('Verifica a renderização e o funcionamento do componente ShowProject', () => {
+describe('Verifica a renderizacao e o funcionamento do componente ShowProject', () => {
   const { projects, titleCourse } = personalProjects;
 
   beforeEach(() => {
@@ -12,13 +12,13 @@ describe('Verifica a renderização e o funcionamento do componente ShowProject'
 
   afterEach(cleanup);
 
-  it('verifica se o titulo do curso é renderizado corretamente', () => {
+  it('verifica se o titulo do curso e renderizado corretamente', () => {
     const titleTest = screen.getByRole('heading', { level: 2 });
     expect(titleTest).toBeInTheDocument();
     expect(titleTest).toHaveTextContent(titleCourse);
   });
 
-  it('verifica se os projetos passados são renderizado corretamente', () => {
+  it('verifica se os projetos passados sao renderizado corretamente', () => {
     const links = screen.getAllByRole('link');
     expect(links).toHaveLength(projects.length);
     projects.forEach((project) => {
