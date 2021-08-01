@@ -1,6 +1,6 @@
 import React from 'react';
 import App from '../App';
-import renderWithRouter from './renderWithRouter';
+import renderWithRouter from './helpers/renderWithRouter';
 
 describe('teste rotas e rederizacao da pagina', () => {
   window.scrollTo = jest.fn().mockImplementation((x) => x);

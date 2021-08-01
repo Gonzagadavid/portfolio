@@ -2,6 +2,18 @@ const trybeProjects = {
   titleCourse: 'Projetos Trybe',
   projects: [
     {
+      title: 'Shopping Cart',
+      tec: 'js html css',
+      description: 'Projeto de avaliação feito durante o curso da Trybe, buscando colocar em prática o aprendizado sobre requisições de API (utilizando a API do mercado livre), também utilizar o LocalStoreage para armazenar itens do carrinho de compra, para que assim os mesmo possam ser renderizado na tela novamente depois que o browser for fechado.',
+      path: 'https://github.com/Gonzagadavid/shopping-cart',
+    },
+    {
+      title: 'Trybewarts Projec',
+      tec: 'js html css',
+      description: 'Projeto em dupla de avaliação feito durante o curso da Trybe, buscando colocar em prática o aprendizado de criação de elementos de formulário, também desenvolver habilidades de trabalhar em equipe resolvendo conflitos no github.',
+      path: 'https://github.com/Gonzagadavid/trybe-trybewarts-project',
+    },
+    {
       title: 'Color Guess',
       tec: 'js html css',
       description: 'Projeto de avaliação feito durante o curso da Trybe, buscando colocar em prática o aprendizado de criação de elementos HTML pelo JavaScript. O recorde fica salvo no localStorage, uma tentativa por sequência de cor e pode diminuir e aumentar a dificuldade.',
@@ -30,6 +42,12 @@ const trybeProjects = {
       tec: 'js html css',
       description: 'Projeto de avaliação feito durante o curso da Trybe, buscando colocar em prática o aprendizado de criação de elementos HTML pelo JavaScript.',
       path: 'https://github.com/Gonzagadavid/letter-mistery',
+    },
+    {
+      title: 'Playground Functions',
+      tec: 'js',
+      description: 'Projeto de avaliação feito durante o curso da Trybe, buscando desenvolver funções conforme os requisitos',
+      path: 'https://github.com/Gonzagadavid/trybe-playground-functions',
     },
     {
       title: 'Lessons Learned',
