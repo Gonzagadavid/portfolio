@@ -1,23 +1,36 @@
 import { fireEvent, render, screen } from '@testing-library/react';
-import React from 'react';
+import * as React from 'react';
 import ProjectCard from '../components/ProjectCard';
 import personalProjects from '../data/projects/personalProjects';
 
 const teste = personalProjects.projects[0];
-const style = { color: 'white' };
-React.useState = jest.fn().mockImplementation((initial) => [initial, (color) => { style.color = color; }]);
 
 describe('verifica a renderizacao e o funcionamento do componente ProjectCard', () => {
-  it('verifica se ao passar uma url como path do props o mesmo é renderizado na tela', () => {
-    render(<ProjectCard title={teste.title} tec="" description={teste.description} path={teste.path} />);
+  const setState = jest.fn();
+  const useStateMock = (initState) => [initState, setState];
+  beforeEach(() => {
+    jest.spyOn(React, 'useState').mockImplementation(useStateMock);
+    render(<ProjectCard title={teste.title} tec="js" description={teste.description} path={teste.path} />);
+  });
+
+  it('verifica a url do link e se os eventos chamam a função que altera o estado', () => {
     const link = screen.getByRole('link');
     expect(link).toBeInTheDocument();
     expect(link).toHaveAttribute('href', teste.path);
+    expect(setState).toHaveBeenCalledTimes(0);
     fireEvent.mouseOver(link);
-    console.log(style.color);
+    expect(setState).toHaveBeenCalledTimes(1);
     fireEvent.mouseOut(link);
-    // console.log(style.color);
-    // expect(style.color).toBe('white');
-    // expect(style.color).toBe('blue');
+    expect(setState).toHaveBeenCalledTimes(2);
+  });
+
+  it('verifica se o titulo, descrição e icon são renderizado corretamente', () => {
+    const title = screen.getByRole('heading', { level: 4 });
+    expect(title).toBeInTheDocument();
+    expect(title).toHaveTextContent(teste.title);
+    const description = screen.getByText(teste.description);
+    expect(description).toBeInTheDocument();
+    const iconJs = screen.getByRole('img');
+    expect(iconJs).toBeInTheDocument();
   });
 });
