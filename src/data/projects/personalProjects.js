@@ -56,9 +56,9 @@ const personalProjects = {
       path: 'https://github.com/Gonzagadavid/simple-calculator-2',
     },
     {
-      title: 'Contagem Regressiva para seu Aniverssário',
+      title: 'Contagem Regressiva para seu Aniversário',
       tec: 'js html css',
-      description: 'Exibe a contagem regressiva da data atual até a data do aniverssário do usuário',
+      description: 'Exibe a contagem regressiva da data atual até a data do aniversário do usuário',
       path: 'https://github.com/Gonzagadavid/birthday-countdown',
     },
     {
