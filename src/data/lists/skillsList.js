@@ -1,4 +1,4 @@
-export const softSkills = [
+const softSkills = [
   'Aprendo com os erros',
   'Aproveito as oportunidades',
   'Dedicação máxima',
@@ -8,7 +8,7 @@ export const softSkills = [
   'Visão e atuação estratégica',
 ];
 
-export const hardSkills = [
+const hardSkills = [
   'HTML 5',
   'CSS 3',
   'JavaScript ES6',
@@ -16,3 +16,5 @@ export const hardSkills = [
   'Mongo DB',
   'React JS',
 ];
+
+export { softSkills, hardSkills };
