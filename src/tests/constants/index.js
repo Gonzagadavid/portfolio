@@ -22,6 +22,8 @@ const PERFIL_PHOTO = 'foto de David';
 
 const NOME_TITLE = 'David Gonzaga da Silva';
 
+const NotFoundMsg = 'Página não encontrada';
+
 const courses = [
   { linkCourse: 'Trybe', projectsCourse: trybeProjects, path: '/projetos_cursos/projetos-trybe' },
   { linkCourse: 'Cod3r', projectsCourse: cod3rProjects, path: '/projetos_cursos/projetos-coder' },
@@ -32,5 +34,5 @@ const courses = [
 
 export {
   keyWords, PERSONAL_PROJECTS, COURSES_PROJECTS, OTHER_PROJECTS, PERFIL_PHOTO,
-  softSkillsTitle, hardSkillsTitle, NOME_TITLE, courses,
+  softSkillsTitle, hardSkillsTitle, NOME_TITLE, courses, NotFoundMsg,
 };
