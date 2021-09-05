@@ -12,3 +12,5 @@ ReactDom.render(
   </Router>,
   root,
 );
+
+export default root;
