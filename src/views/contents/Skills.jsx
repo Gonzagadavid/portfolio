@@ -6,8 +6,8 @@ import './contents.css';
 const Skills = () => (
   <div className="Skills contents">
     <h2>Habilidades</h2>
-    <List list={softSkills} title="Habildades que mais me orgulho" />
-    <List list={hardSkills} title="Outras habildades" />
+    <List list={softSkills} title="Habilidades que mais me orgulho" />
+    <List list={hardSkills} title="Outras habilidades" />
   </div>
 );
 
