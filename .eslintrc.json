@@ -19,7 +19,6 @@
     ],
     "rules": {
         "jsx-a11y/mouse-events-have-key-events": "off",
-        "react/prop-types": "off",
         "max-len": "off",
         "react/jsx-filename-extension": "off",
         "react/no-unescaped-entities": "off",
