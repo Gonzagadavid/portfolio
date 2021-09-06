@@ -1,14 +1,10 @@
 import React from 'react';
 import './Email.css';
 
-const Email = ({ email }) => {
-  const redirectEmail = () => {
-    window.open(`mailto:${email}`, 'emailWindow');
-  };
-  return (
-    <div className="Email">
-      <button type="button" onClick={redirectEmail}><em>{email}</em></button>
-    </div>
-  );
-};
+const Email = ({ email }) => (
+  <div className="Email">
+    <a type="button" href={`mailto:${email}`}><em>{email}</em></a>
+  </div>
+);
+
 export default Email;
