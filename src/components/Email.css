@@ -1,0 +1,24 @@
+.Email {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.Email em {
+  text-align: center;
+  font-style: oblique;
+  font-weight: lighter;
+  font-size: 18px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.Email button {
+  background-color: transparent;
+  border: none;
+}
+
+.Email em:hover{
+  background-color: rgb(255, 255, 255);
+  color: rgb(23, 18, 49);
+}

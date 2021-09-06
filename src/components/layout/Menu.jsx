@@ -4,6 +4,7 @@ import Image from '../Image';
 import './Menu.css';
 import Foto from '../../images/perfil.jpg';
 import Contact from '../Contact';
+import Email from '../Email';
 
 const Menu = () => (
   <div className="Menu">
@@ -11,7 +12,7 @@ const Menu = () => (
       <Link to="/portfolio"><Image src={Foto} alt="foto de David" /></Link>
       <Contact path="https://github.com/Gonzagadavid" text="GitHub" icon="github" />
       <Contact path="https://www.linkedin.com/in/david-gonzaga/" text="LinkedIn" icon="linkedin" />
-      <h4>gonzagadaviddev@gmail.com</h4>
+      <Email email="gonzagadaviddev@gmail.com" />
       <ul>
         <li><Link to="/habilidades">Habilidades</Link></li>
         <li><Link to="/projetos_pessoais">Projetos de iniciativa pessoal</Link></li>
