@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './Contact.css';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
+import { string } from 'prop-types';
 
 const Contact = ({ icon, path, text }) => {
   const [color, setColor] = useState('white');
@@ -25,3 +26,9 @@ const Contact = ({ icon, path, text }) => {
 };
 
 export default Contact;
+
+Contact.propTypes = {
+  icon: string.isRequired,
+  path: string.isRequired,
+  text: string.isRequired,
+};

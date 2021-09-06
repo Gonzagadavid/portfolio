@@ -1,4 +1,5 @@
 import React from 'react';
+import { string } from 'prop-types';
 import './Image.css';
 
 const Image = ({ src, alt }) => (
@@ -8,3 +9,8 @@ const Image = ({ src, alt }) => (
 );
 
 export default Image;
+
+Image.propTypes = {
+  src: string.isRequired,
+  alt: string.isRequired,
+};

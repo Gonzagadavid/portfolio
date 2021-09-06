@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { string } from 'prop-types';
 import './ProjectCard.css';
 import {
   SiJavascript, SiHtml5, SiCss3, SiNodeDotJs, SiReact,
@@ -41,3 +42,10 @@ const ProjectCard = ({
 };
 
 export default ProjectCard;
+
+ProjectCard.propTypes = {
+  title: string.isRequired,
+  tec: string.isRequired,
+  description: string.isRequired,
+  path: string.isRequired,
+};

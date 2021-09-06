@@ -1,4 +1,5 @@
 import React from 'react';
+import { string, arrayOf } from 'prop-types';
 import '../views/contents/contents.css';
 
 const List = ({ list, title }) => (
@@ -11,3 +12,8 @@ const List = ({ list, title }) => (
 );
 
 export default List;
+
+List.propTypes = {
+  list: arrayOf(string).isRequired,
+  title: string.isRequired,
+};

@@ -1,4 +1,5 @@
 import React from 'react';
+import { string } from 'prop-types';
 import './Email.css';
 
 const Email = ({ email }) => (
@@ -8,3 +9,7 @@ const Email = ({ email }) => (
 );
 
 export default Email;
+
+Email.propTypes = {
+  email: string.isRequired,
+};
