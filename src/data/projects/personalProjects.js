@@ -35,7 +35,7 @@ const personalProjects = {
       title: 'Linear Gradiente CSS',
       tec: 'js html css',
       description: 'Este projeto auxilia na escolha da cores do linear gradiente para usar no css, disponibilizando o código',
-      path: 'hhttps://gonzagadavid.github.io/linear-gradient-CSS/',
+      path: 'https://gonzagadavid.github.io/linear-gradient-CSS/',
     },
     {
       title: 'Cálculo de Juro',
