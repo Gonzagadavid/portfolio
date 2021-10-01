@@ -2,6 +2,12 @@ const trybeProjects = {
   titleCourse: 'Projetos Trybe',
   projects: [
     {
+      title: 'Movie Card Library Stateful',
+      tec: 'react',
+      description: 'Projeto de avaliação feito durante o curso da Trybe, buscando colocar em prática o desenvolvimento de componente controlado, iniciar um componente com estado inicial pré-definido e trasmitir informções do componente pai para o componente filho.',
+      path: 'https://github.com/Gonzagadavid/movie-cards-library-stateful',
+    },
+    {
       title: 'Movie Card Library',
       tec: 'react',
       description: 'Projeto de avaliação feito durante o curso da Trybe, buscando colocar em prática a preparação do ambiente de desenvolvimento ReactJS, criar corretamente componentes e utilizar propTypes.',
