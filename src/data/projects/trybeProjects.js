@@ -8,6 +8,12 @@ const trybeProjects = {
       path: 'https://github.com/Gonzagadavid/shopping-cart',
     },
     {
+      title: 'JS UNIT TESTS',
+      tec: 'js node',
+      description: 'Projeto em dupla de avaliação feito durante o curso da Trybe, buscando colocar em prática o aprendizado de escrever testes e funções utilizando uma abordagem de desenvolvimento orientado a testes.',
+      path: 'https://github.com/Gonzagadavid/js-unit-tests',
+    },
+    {
       title: 'Trybewarts Projec',
       tec: 'js html css',
       description: 'Projeto em dupla de avaliação feito durante o curso da Trybe, buscando colocar em prática o aprendizado de criação de elementos de formulário, também desenvolver habilidades de trabalhar em equipe resolvendo conflitos no github.',
