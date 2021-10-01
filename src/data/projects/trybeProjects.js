@@ -2,6 +2,12 @@ const trybeProjects = {
   titleCourse: 'Projetos Trybe',
   projects: [
     {
+      title: 'Movie Card Library',
+      tec: 'react',
+      description: 'Projeto de avaliação feito durante o curso da Trybe, buscando colocar em prática a preparação do ambiente de desenvolvimento ReactJS, criar corretamente componentes e utilizar propTypes.',
+      path: 'https://github.com/Gonzagadavid/movie-cards-library',
+    },
+    {
       title: 'Project Jest',
       tec: 'js jest',
       description: 'Projeto de avaliação feito durante o curso da Trybe, buscando colocar em prática escrever testes para funções assíncronas, aplicar os seus conhecimentos acerca de testes utilizando o Jest, "Mockar" funções, "Mockar" APIs.',
