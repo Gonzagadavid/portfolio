@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { string } from 'prop-types';
 import './ProjectCard.css';
 import {
-  SiJavascript, SiHtml5, SiCss3, SiNodeDotJs, SiReact,
-  SiMongodb, SiSocketDotIo, SiMysql, SiAngular, SiTypescript,
+  SiJavascript, SiHtml5, SiCss3, SiNodeDotJs, SiReact, SiJest, SiStorybook,
+  SiMongodb, SiSocketDotIo, SiMysql, SiAngular, SiTypescript, SiNpm,
 } from 'react-icons/si';
 
 const ProjectCard = ({
@@ -23,6 +23,9 @@ const ProjectCard = ({
     mysql: <SiMysql style={styleIcons} />,
     angular: <SiAngular style={styleIcons} />,
     ts: <SiTypescript style={styleIcons} />,
+    jest: <SiJest style={styleIcons} />,
+    npm: <SiNpm style={styleIcons} />,
+    story: <SiStorybook style={styleIcons} />,
   };
 
   return (

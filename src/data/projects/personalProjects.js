@@ -2,9 +2,21 @@ const personalProjects = {
   titleCourse: 'Projetos de Iniciativa Pessoal',
   projects: [
     {
+      title: 'Stylized percentage chart Page',
+      tec: 'react css',
+      description: 'Aplicação desenvolvida para a documentação e o auxílio na estilização do componente library Stylized Graphic Component',
+      path: 'https://gonzagadavid.github.io/percentage-chart/',
+    },
+    {
+      title: 'Stylized Graphic Component',
+      tec: 'react story node npm',
+      description: 'Componente library que gera um gráfico de porcentagem simples com barras, podendo ser estilizado com a ajuda da página Stylized percentage chart Page',
+      path: 'https://github.com/Gonzagadavid/stylized-graphic-component',
+    },
+    {
       title: 'Sudoku',
-      tec: 'js html css',
-      description: 'Através de um array de arrays recebido recebidos via API, o jogo é criado dinamicamente. Verificando possibilidades a cada interação e mudança feita pelo usuário',
+      tec: 'js html css jest',
+      description: 'Através de um array de arrays recebido recebidos via API, o jogo é criado dinamicamente. Verificando possibilidades a cada interação e mudança feita pelo usuário. Com 100% de cobertura de testes com jest jsdom',
       path: 'https://gonzagadavid.github.io/sudoku/',
     },
     {
