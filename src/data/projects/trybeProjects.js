@@ -2,6 +2,12 @@ const trybeProjects = {
   titleCourse: 'Projetos Trybe',
   projects: [
     {
+      title: 'Online Store',
+      tec: 'react reactRouter',
+      description: 'Projeto de avaliação feito durante o curso da Trybe, buscando colocar em prática trabalho em equipe, utilizando métodos ágeis: Scrum e Kanban.',
+      path: 'https://github.com/Gonzagadavid/online-store',
+    },
+    {
       title: 'Movie Card Library CRUD',
       tec: 'react reactRouter',
       description: 'Projeto de avaliação feito durante o curso da Trybe, buscando colocar em prática a utilização dos metodos componentDidMount, shouldComponentUpdate, componentDidUpdate e componentWillUnmount, também utilizar props.children e desenvolver rotas com react-router-dom.',
