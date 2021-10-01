@@ -2,9 +2,15 @@ const trybeProjects = {
   titleCourse: 'Projetos Trybe',
   projects: [
     {
+      title: 'Movie Card Library CRUD',
+      tec: 'react reactRouter',
+      description: 'Projeto de avaliação feito durante o curso da Trybe, buscando colocar em prática a utilização dos metodos componentDidMount, shouldComponentUpdate, componentDidUpdate e componentWillUnmount, também utilizar props.children e desenvolver rotas com react-router-dom.',
+      path: 'https://github.com/Gonzagadavid/movie-card-library-crud',
+    },
+    {
       title: 'Movie Card Library Stateful',
       tec: 'react',
-      description: 'Projeto de avaliação feito durante o curso da Trybe, buscando colocar em prática o desenvolvimento de componente controlado, iniciar um componente com estado inicial pré-definido e trasmitir informções do componente pai para o componente filho.',
+      description: 'Projeto de avaliação feito durante o curso da Trybe, buscando colocar em prática o desenvolvimento de componentes controlado, iniciar um componente com estado inicial pré-definido e trasmitir informções do componente pai para o componente filho.',
       path: 'https://github.com/Gonzagadavid/movie-cards-library-stateful',
     },
     {

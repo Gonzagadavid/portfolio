@@ -3,7 +3,7 @@ const personalProjects = {
   projects: [
     {
       title: 'Stylized percentage chart Page',
-      tec: 'react css',
+      tec: 'react reactRouter css',
       description: 'Aplicação desenvolvida para a documentação e o auxílio na estilização do componente library Stylized Graphic Component',
       path: 'https://gonzagadavid.github.io/percentage-chart/',
     },

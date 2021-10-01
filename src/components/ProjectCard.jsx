@@ -3,7 +3,7 @@ import { string } from 'prop-types';
 import './ProjectCard.css';
 import {
   SiJavascript, SiHtml5, SiCss3, SiNodeDotJs, SiReact, SiJest, SiStorybook,
-  SiMongodb, SiSocketDotIo, SiMysql, SiAngular, SiTypescript, SiNpm,
+  SiMongodb, SiSocketDotIo, SiMysql, SiAngular, SiTypescript, SiNpm, SiReactrouter,
 } from 'react-icons/si';
 
 const ProjectCard = ({
@@ -26,6 +26,7 @@ const ProjectCard = ({
     jest: <SiJest style={styleIcons} />,
     npm: <SiNpm style={styleIcons} />,
     story: <SiStorybook style={styleIcons} />,
+    reactRouter: <SiReactrouter style={styleIcons} />,
   };
 
   return (
