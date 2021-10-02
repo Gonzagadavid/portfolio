@@ -2,6 +2,12 @@ const trybeProjects = {
   titleCourse: 'Projetos Trybe',
   projects: [
     {
+      title: 'React Testing Library',
+      tec: 'react reactRouter jest',
+      description: 'Projeto de avaliação feito durante o curso da Trybe, buscando colocar em prática utilizar os seletores, simular eventos e Testar fluxos lógicos assíncronos com a React-Testing-Library. Criar mocks de APIs utilizando fetch e testar inputs',
+      path: 'https://github.com/Gonzagadavid/react-testing-library',
+    },
+    {
       title: 'Online Store',
       tec: 'react reactRouter',
       description: 'Projeto de avaliação feito durante o curso da Trybe, buscando colocar em prática trabalho em equipe, utilizando métodos ágeis: Scrum e Kanban.',
