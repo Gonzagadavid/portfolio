@@ -3,7 +3,7 @@ const personalProjects = {
   projects: [
     {
       title: 'Stylized percentage chart Page',
-      tec: 'react reactRouter redux css',
+      tec: 'react reactRouter redux testingLibrary css',
       description: 'Aplicação desenvolvida para a documentação e o auxílio na estilização do componente library Stylized Graphic Component',
       path: 'https://gonzagadavid.github.io/percentage-chart/',
     },
@@ -39,7 +39,7 @@ const personalProjects = {
     },
     {
       title: 'Portfólio com React JS (esta página)',
-      tec: 'react js css',
+      tec: 'react reactRouter testingLibrary css',
       description: 'Meu portfólio com React JS, contruindo componentes e os utilizando da maneira mais proveitosa possível',
       path: 'https://github.com/Gonzagadavid/portfolio',
     },

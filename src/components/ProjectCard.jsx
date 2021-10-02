@@ -5,6 +5,7 @@ import {
   SiJavascript, SiHtml5, SiCss3, SiNodeDotJs, SiReact, SiJest, SiStorybook, SiRedux,
   SiMongodb, SiSocketDotIo, SiMysql, SiAngular, SiTypescript, SiNpm, SiReactrouter,
 } from 'react-icons/si';
+import TestingLibrary from './icons/TestingLibrary';
 
 const ProjectCard = ({
   title, tec, description, path,
@@ -28,6 +29,7 @@ const ProjectCard = ({
     story: <SiStorybook style={styleIcons} />,
     reactRouter: <SiReactrouter style={styleIcons} />,
     redux: <SiRedux style={styleIcons} />,
+    testingLibrary: <TestingLibrary style={styleIcons} />,
   };
 
   return (

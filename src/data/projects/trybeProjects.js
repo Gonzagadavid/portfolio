@@ -3,7 +3,7 @@ const trybeProjects = {
   projects: [
     {
       title: 'Recipes App',
-      tec: 'react reactRouter redux jest css',
+      tec: 'react reactRouter redux testingLibrary css',
       description: 'Projeto de avaliação feito em equipe durante o curso da Trybe, buscando colocar em prática trabalhar em equipe utilizado métodos agéis. Criar store, reducers, actions e dispatchers no Redux em aplicações React, também conectar o Redux aos componentes utilizando actions assincronas e desenvolvimento de testes',
       path: 'https://github.com/Gonzagadavid/project-recipes-app',
     },
@@ -27,7 +27,7 @@ const trybeProjects = {
     },
     {
       title: 'React Testing Library',
-      tec: 'react reactRouter jest',
+      tec: 'react reactRouter testingLibrary',
       description: 'Projeto de avaliação feito durante o curso da Trybe, buscando colocar em prática utilizar os seletores, simular eventos e Testar fluxos lógicos assíncronos com a React-Testing-Library. Criar mocks de APIs utilizando fetch e testar inputs',
       path: 'https://github.com/Gonzagadavid/react-testing-library',
     },
