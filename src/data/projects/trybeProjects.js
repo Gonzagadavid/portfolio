@@ -2,6 +2,12 @@ const trybeProjects = {
   titleCourse: 'Projetos Trybe',
   projects: [
     {
+      title: 'Recipes App',
+      tec: 'react reactRouter redux jest css',
+      description: 'Projeto de avaliação feito em equipe durante o curso da Trybe, buscando colocar em prática trabalhar em equipe utilizado métodos agéis. Criar store, reducers, actions e dispatchers no Redux em aplicações React, também conectar o Redux aos componentes utilizando actions assincronas e desenvolvimento de testes',
+      path: 'https://github.com/Gonzagadavid/project-recipes-app',
+    },
+    {
       title: 'Starwars Planets Search',
       tec: 'react',
       description: 'Projeto de avaliação feito durante o curso da Trybe, buscando colocar em prática utilizar Context API do React para gerenciar os estado, utilizar os hooks: useState, useContex, useEffect e também criar hooks customizados',
