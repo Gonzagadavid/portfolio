@@ -2,6 +2,12 @@ const trybeProjects = {
   titleCourse: 'Projetos Trybe',
   projects: [
     {
+      title: 'Project Trybe Wallet',
+      tec: 'react reactRouter redux',
+      description: 'Projeto de avaliação feito durante o curso da Trybe, buscando colocar em prática criar store, reducers, actions e dispatchers no Redux em aplicações React, também conectar o Redux aos componentes utilizando actions assincronas',
+      path: 'https://github.com/Gonzagadavid/project-trybewallet',
+    },
+    {
       title: 'React Testing Library',
       tec: 'react reactRouter jest',
       description: 'Projeto de avaliação feito durante o curso da Trybe, buscando colocar em prática utilizar os seletores, simular eventos e Testar fluxos lógicos assíncronos com a React-Testing-Library. Criar mocks de APIs utilizando fetch e testar inputs',

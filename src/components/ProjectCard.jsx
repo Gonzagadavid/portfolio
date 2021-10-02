@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { string } from 'prop-types';
 import './ProjectCard.css';
 import {
-  SiJavascript, SiHtml5, SiCss3, SiNodeDotJs, SiReact, SiJest, SiStorybook,
+  SiJavascript, SiHtml5, SiCss3, SiNodeDotJs, SiReact, SiJest, SiStorybook, SiRedux,
   SiMongodb, SiSocketDotIo, SiMysql, SiAngular, SiTypescript, SiNpm, SiReactrouter,
 } from 'react-icons/si';
 
@@ -27,6 +27,7 @@ const ProjectCard = ({
     npm: <SiNpm style={styleIcons} />,
     story: <SiStorybook style={styleIcons} />,
     reactRouter: <SiReactrouter style={styleIcons} />,
+    redux: <SiRedux style={styleIcons} />,
   };
 
   return (
