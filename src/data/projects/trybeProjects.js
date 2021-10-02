@@ -2,6 +2,12 @@ const trybeProjects = {
   titleCourse: 'Projetos Trybe',
   projects: [
     {
+      title: 'Starwars Planets Search',
+      tec: 'react',
+      description: 'Projeto de avaliação feito durante o curso da Trybe, buscando colocar em prática utilizar Context API do React para gerenciar os estado, utilizar os hooks: useState, useContex, useEffect e também criar hooks customizados',
+      path: 'https://github.com/Gonzagadavid/starwars-planets-search',
+    },
+    {
       title: 'Trivia Game',
       tec: 'react reactRouter redux css',
       description: 'Projeto de avaliação feito em equipe durante o curso da Trybe, buscando colocar em prática trabalhar em equipe utilizado métodos agéis. Criar store, reducers, actions e dispatchers no Redux em aplicações React, também conectar o Redux aos componentes utilizando actions assincronas',
