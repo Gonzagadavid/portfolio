@@ -2,6 +2,12 @@ const trybeProjects = {
   titleCourse: 'Projetos Trybe',
   projects: [
     {
+      title: 'Trivia Game',
+      tec: 'react reactRouter redux css',
+      description: 'Projeto de avaliação feito em equipe durante o curso da Trybe, buscando colocar em prática trabalhar em equipe utilizado métodos agéis. Criar store, reducers, actions e dispatchers no Redux em aplicações React, também conectar o Redux aos componentes utilizando actions assincronas',
+      path: 'https://github.com/Gonzagadavid/trivia-game',
+    },
+    {
       title: 'Project Trybe Wallet',
       tec: 'react reactRouter redux',
       description: 'Projeto de avaliação feito durante o curso da Trybe, buscando colocar em prática criar store, reducers, actions e dispatchers no Redux em aplicações React, também conectar o Redux aos componentes utilizando actions assincronas',
