@@ -2,6 +2,24 @@ const trybeProjects = {
   titleCourse: 'Projetos Trybe',
   projects: [
     {
+      title: 'MySQL One For All',
+      tec: 'mysql',
+      description: 'Projeto de avaliação feito durante o curso da Trybe, buscando colocar em prática modelar um banco de dados, identificar entidades , atributos e relacionamentos, aplicar a 1ª, 2ª e 3ª Forma Normal, criar e alterar tabelas, criar VIEWS e TRIGGERS',
+      path: 'https://github.com/Gonzagadavid/mysql-one-for-all',
+    },
+    {
+      title: 'MySQL Vocabulary Booster',
+      tec: 'mysql',
+      description: 'Projeto de avaliação feito durante o curso da Trybe, buscando colocar em prática criar condicionais usando IF e CASE, manipular strings, utilizar as funções de agregação AVG, MIN, MAX, SUM e COUNT, utilizar GROUP BY e HAVING, INNER JOIN, LEFT JOIN, RIGHT JOIN, SELF JOIN e subqueries, montar STORED PROCEDURES e STORED FUNCTIONS',
+      path: 'https://github.com/Gonzagadavid/mysql-vocabulary-booster',
+    },
+    {
+      title: 'MySQL All For One',
+      tec: 'mysql',
+      description: 'Projeto de avaliação feito durante o curso da Trybe, buscando colocar em prática enteder banco de dados, criar querys para consultas, inserir atualizar e deletar dados',
+      path: 'https://github.com/Gonzagadavid/mysql-all-for-one',
+    },
+    {
       title: 'Recipes App',
       tec: 'react reactRouter redux testingLibrary css',
       description: 'Projeto de avaliação feito em equipe durante o curso da Trybe, buscando colocar em prática trabalhar em equipe utilizado métodos agéis. Criar store, reducers, actions e dispatchers no Redux em aplicações React, também conectar o Redux aos componentes utilizando actions assincronas e desenvolvimento de testes',

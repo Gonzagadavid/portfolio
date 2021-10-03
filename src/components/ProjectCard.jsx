@@ -3,8 +3,9 @@ import { string } from 'prop-types';
 import './ProjectCard.css';
 import {
   SiJavascript, SiHtml5, SiCss3, SiNodeDotJs, SiReact, SiJest, SiStorybook, SiRedux,
-  SiMongodb, SiSocketDotIo, SiMysql, SiAngular, SiTypescript, SiNpm, SiReactrouter,
+  SiMongodb, SiSocketDotIo, SiAngular, SiTypescript, SiNpm, SiReactrouter,
 } from 'react-icons/si';
+import { GrMysql } from 'react-icons/gr';
 import TestingLibrary from './icons/TestingLibrary';
 
 const ProjectCard = ({
@@ -21,7 +22,7 @@ const ProjectCard = ({
     react: <SiReact style={styleIcons} />,
     mongo: <SiMongodb style={styleIcons} />,
     socket: <SiSocketDotIo style={styleIcons} />,
-    mysql: <SiMysql style={styleIcons} />,
+    mysql: <GrMysql style={styleIcons} />,
     angular: <SiAngular style={styleIcons} />,
     ts: <SiTypescript style={styleIcons} />,
     jest: <SiJest style={styleIcons} />,
