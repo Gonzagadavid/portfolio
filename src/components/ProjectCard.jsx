@@ -3,7 +3,7 @@ import { string } from 'prop-types';
 import './ProjectCard.css';
 import {
   SiJavascript, SiHtml5, SiCss3, SiNodeDotJs, SiReact, SiJest, SiStorybook, SiRedux,
-  SiMongodb, SiSocketDotIo, SiAngular, SiTypescript, SiNpm, SiReactrouter,
+  SiMongodb, SiSocketDotIo, SiAngular, SiTypescript, SiNpm, SiReactrouter, SiWebpack,
 } from 'react-icons/si';
 import { GrMysql } from 'react-icons/gr';
 import TestingLibrary from './icons/TestingLibrary';
@@ -31,6 +31,7 @@ const ProjectCard = ({
     reactRouter: <SiReactrouter style={styleIcons} />,
     redux: <SiRedux style={styleIcons} />,
     testingLibrary: <TestingLibrary style={styleIcons} />,
+    webpack: <SiWebpack style={styleIcons} />,
   };
 
   return (

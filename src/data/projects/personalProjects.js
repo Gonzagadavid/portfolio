@@ -15,8 +15,8 @@ const personalProjects = {
     },
     {
       title: 'Sudoku',
-      tec: 'js html css jest',
-      description: 'Através de um array de arrays recebido recebidos via API, o jogo é criado dinamicamente. Verificando possibilidades a cada interação e mudança feita pelo usuário. Com 100% de cobertura de testes com jest jsdom',
+      tec: 'js html css jest webpack',
+      description: 'Através de um array de arrays recebido recebidos via API, o jogo é criado dinamicamente. Verificando possibilidades a cada interação e mudança feita pelo usuário. Com 100% de cobertura de testes com jest jsdom. Feito build utilizando webpack',
       path: 'https://gonzagadavid.github.io/sudoku/',
     },
     {
