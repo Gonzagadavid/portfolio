@@ -3,7 +3,7 @@ const personalProjects = {
   projects: [
     {
       title: 'Stylized percentage chart Page',
-      tec: 'react reactRouter redux testingLibrary css',
+      tec: 'react reactRouter redux css',
       description: 'Aplicação desenvolvida para a documentação e o auxílio na estilização do componente library Stylized Graphic Component',
       path: 'https://gonzagadavid.github.io/percentage-chart/',
     },
@@ -12,6 +12,12 @@ const personalProjects = {
       tec: 'react story node npm',
       description: 'Componente library que gera um gráfico de porcentagem simples com barras, podendo ser estilizado com a ajuda da página Stylized percentage chart Page',
       path: 'https://github.com/Gonzagadavid/stylized-graphic-component',
+    },
+    {
+      title: 'Portfólio com React JS (esta página)',
+      tec: 'react reactRouter testingLibrary css',
+      description: 'Meu portfólio com React JS, contruindo componentes e os utilizando da maneira mais proveitosa possível',
+      path: 'https://github.com/Gonzagadavid/portfolio',
     },
     {
       title: 'Sudoku',
@@ -36,12 +42,6 @@ const personalProjects = {
       tec: 'js html css',
       description: 'Nesse projeto de iniciativa pessoal, busquei desenvolver praticamente tudo usando JavaScript, inclusive tamanho das fontes e a divisão da tela',
       path: 'https://gonzagadavid.github.io/JavaScript-Matrix/',
-    },
-    {
-      title: 'Portfólio com React JS (esta página)',
-      tec: 'react reactRouter testingLibrary css',
-      description: 'Meu portfólio com React JS, contruindo componentes e os utilizando da maneira mais proveitosa possível',
-      path: 'https://github.com/Gonzagadavid/portfolio',
     },
     {
       title: 'Linear Gradiente CSS',

@@ -2,6 +2,12 @@ const trybeProjects = {
   titleCourse: 'Projetos Trybe',
   projects: [
     {
+      title: 'MongoDB Data Flights',
+      tec: 'mongo',
+      description: 'Projeto de avaliação feito durante o curso da Trybe, buscando colocar em prática buscar, filtrar, inserir e deletar dados de um banco no MongoDB',
+      path: 'https://github.com/Gonzagadavid/mongodb-dataflights',
+    },
+    {
       title: 'MySQL One For All',
       tec: 'mysql',
       description: 'Projeto de avaliação feito durante o curso da Trybe, buscando colocar em prática modelar um banco de dados, identificar entidades , atributos e relacionamentos, aplicar a 1ª, 2ª e 3ª Forma Normal, criar e alterar tabelas, criar VIEWS e TRIGGERS',
