@@ -4,7 +4,7 @@ const trybeProjects = {
     {
       title: 'MongoDB Commerce',
       tec: 'mongo',
-      description: 'Projeto de avaliação feito durante o curso da Trybe, buscando colocar em prática utilizar o método updateOne, updateMany e os operadores $set, $mul, $inc, $min, $max , $currentDat, $expr, $mod, operadores para arrays como $addToSet, $each, $slice, $sort, $all, $elemMatch e $size, e para textos como $regex e $text',
+      description: 'Projeto de avaliação feito durante o curso da Trybe, buscando colocar em prática utilizar o métodos e operadores para updates simples e complexos com arrays e strings longas',
       path: 'https://github.com/Gonzagadavid/mongodb-commerce',
     },
     {
