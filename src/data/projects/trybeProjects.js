@@ -2,6 +2,12 @@ const trybeProjects = {
   titleCourse: 'Projetos Trybe',
   projects: [
     {
+      title: 'MongoDB Commerce',
+      tec: 'mongo',
+      description: 'Projeto de avaliação feito durante o curso da Trybe, buscando colocar em prática utilizar o método updateOne, updateMany e os operadores $set, $mul, $inc, $min, $max , $currentDat, $expr, $mod, operadores para arrays como $addToSet, $each, $slice, $sort, $all, $elemMatch e $size, e para textos como $regex e $text',
+      path: 'https://github.com/Gonzagadavid/mongodb-commerce',
+    },
+    {
       title: 'MongoDB Data Flights',
       tec: 'mongo',
       description: 'Projeto de avaliação feito durante o curso da Trybe, buscando colocar em prática buscar, filtrar, inserir e deletar dados de um banco no MongoDB',
