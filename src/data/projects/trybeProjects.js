@@ -2,6 +2,12 @@ const trybeProjects = {
   titleCourse: 'Projetos Trybe',
   projects: [
     {
+      title: 'MongoDB Aggregations',
+      tec: 'mongo',
+      description: 'Projeto de avaliação feito durante o curso da Trybe, buscando colocar em prática executar buscas complexas no banco mongoDB, usando os operadores de aggregation para fazer uma pipeline',
+      path: 'https://github.com/Gonzagadavid/mongodb-aggregations',
+    },
+    {
       title: 'MongoDB Commerce',
       tec: 'mongo',
       description: 'Projeto de avaliação feito durante o curso da Trybe, buscando colocar em prática utilizar métodos e operadores para updates simples e complexos com arrays e strings longas',
