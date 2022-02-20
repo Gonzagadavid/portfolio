@@ -3,18 +3,30 @@ const softSkills = [
   'Aproveito as oportunidades',
   'Dedicação máxima',
   'Empatia',
+  'Inteligência Emocional',
+  'Comunicação',
+  'Colaboração',
+  'Pensamento Crítico',
+  'Criatividade',
+  'Liderança',
   'Expresso gratidão aos que me ajudam',
-  'Atualização permanente na área',
+  'Atualização frequente na área',
   'Visão e atuação estratégica',
 ];
 
 const hardSkills = [
   'HTML 5',
   'CSS 3',
+  'JavaScript CJS',
   'JavaScript ES6',
-  'Node JS',
-  'Mongo DB',
-  'React JS',
+  'MongoDB',
+  'ReactJS',
+  'NodeJS',
+  'Express',
+  'MySQL',
+  'WebPack',
+  'NPM',
+  'TypeScript',
 ];
 
 export { softSkills, hardSkills };

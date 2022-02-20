@@ -2,8 +2,26 @@ const personalProjects = {
   titleCourse: 'Projetos de Iniciativa Pessoal',
   projects: [
     {
+      title: 'Priority List - Full Stack',
+      tec: 'react redux testingLibrary node express jest mongo jwt nodemon eslint',
+      description: 'O desenvolvimento da aplicação Lista de Prioridades teve como proposito otimizar a organização e produtividade das pessoas',
+      path: 'https://github.com/Gonzagadavid/todo-list-fullstack',
+    },
+    {
+      title: 'Calendar JSON API',
+      tec: 'ts tsnode express jest eslint',
+      description: 'A API Calendar JSON pode fornece um calendário formatado como uma matriz 2D, podendo optar pelo o mês e/ou o ano selecionado',
+      path: 'https://github.com/Gonzagadavid/calendar-json-api',
+    },
+    {
+      title: 'Chameleon',
+      tec: 'react reactRouter redux testingLibrary css eslint',
+      description: 'Chameleon é uma aplicação que onde permite que a pessoa usuária obtenha informações sobre suas bandas favoritas, procurando promover a experiência de estar em um ambiente feito especialmente para a banda pesquisada',
+      path: 'https://github.com/Gonzagadavid/chameleon',
+    },
+    {
       title: 'Stylized percentage chart Page',
-      tec: 'react reactRouter redux css',
+      tec: 'react reactRouter redux css eslint',
       description: 'Aplicação desenvolvida para a documentação e o auxílio na estilização do componente library Stylized Graphic Component',
       path: 'https://gonzagadavid.github.io/percentage-chart/',
     },

@@ -2,6 +2,12 @@ const trybeProjects = {
   titleCourse: 'Projetos Trybe',
   projects: [
     {
+      title: 'Talker Manager',
+      tec: 'express nodemon mongo',
+      description: 'Projeto de avaliação feito durante o curso da Trybe, buscando colocar em prática estruturação de uma aplicação express, ler e escrever arquivos localmente',
+      path: 'https://github.com/Gonzagadavid/project-talker-manager',
+    },
+    {
       title: 'MongoDB Aggregations',
       tec: 'mongo',
       description: 'Projeto de avaliação feito durante o curso da Trybe, buscando colocar em prática executar buscas complexas no banco mongoDB, usando os operadores de aggregation para fazer uma pipeline',
