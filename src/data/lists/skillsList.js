@@ -15,18 +15,19 @@ const softSkills = [
 ];
 
 const hardSkills = [
-  'HTML 5',
-  'CSS 3',
+  'TypeScript',
   'JavaScript CJS',
   'JavaScript ES6',
+  'GraphQL',
+  'NodeJS',
+  'MySQL',
   'MongoDB',
   'ReactJS',
-  'NodeJS',
   'Express',
-  'MySQL',
   'WebPack',
   'NPM',
-  'TypeScript',
+  'HTML 5',
+  'CSS 3',
 ];
 
 export { softSkills, hardSkills };

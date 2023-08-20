@@ -2,6 +2,12 @@ const personalProjects = {
   titleCourse: 'Projetos de Iniciativa Pessoal',
   projects: [
     {
+      title: 'Rick and Morty',
+      tec: ' ts graphql apollo react reactRouter mui eslint',
+      description: 'Projeto Front-End desenvolvido com React consumindo api GraphQL elevando o nível de tipagem e qualidade do código e performace da aplicação',
+      path: 'https://github.com/Gonzagadavid/rick-and-morty',
+    },
+    {
       title: 'Priority List - Full Stack',
       tec: 'react redux testingLibrary node express jest mongo jwt nodemon eslint',
       description: 'O desenvolvimento da aplicação Lista de Prioridades teve como proposito otimizar a organização e produtividade das pessoas',
