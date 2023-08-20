@@ -2,7 +2,8 @@ import React from 'react';
 import {
   SiJavascript, SiHtml5, SiCss3, SiNodedotjs, SiReact, SiJest, SiStorybook, SiRedux,
   SiMongodb, SiSocketdotio, SiAngular, SiTypescript, SiNpm, SiReactrouter, SiWebpack,
-  SiEslint, SiTsnode, SiExpress, SiJsonwebtokens, SiNodemon,
+  SiEslint, SiTsnode, SiExpress, SiJsonwebtokens, SiNodemon, SiGraphql, SiApollographql,
+  SiMui,
 } from 'react-icons/si';
 import { GrMysql } from 'react-icons/gr';
 import { string } from 'prop-types';
@@ -33,6 +34,9 @@ const Icon = ({ color, tec }) => {
     tsnode: <SiTsnode style={styleIcons} />,
     jwt: <SiJsonwebtokens style={styleIcons} />,
     nodemon: <SiNodemon style={styleIcons} />,
+    graphql: <SiGraphql style={styleIcons} />,
+    apollo: <SiApollographql style={styleIcons} />,
+    mui: <SiMui style={styleIcons} />,
   };
 
   return (
