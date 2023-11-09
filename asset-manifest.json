@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.7f456b86.chunk.css",
+    "main.js": "/portfolio/static/js/main.b42cd4d7.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.b42cd4d7.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.43d9a0ba.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.43d9a0ba.js.map",
+    "static/js/2.84af57e6.chunk.js": "/portfolio/static/js/2.84af57e6.chunk.js",
+    "static/js/2.84af57e6.chunk.js.map": "/portfolio/static/js/2.84af57e6.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "static/css/main.7f456b86.chunk.css.map": "/portfolio/static/css/main.7f456b86.chunk.css.map",
+    "static/js/2.84af57e6.chunk.js.LICENSE.txt": "/portfolio/static/js/2.84af57e6.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/portfolio/static/media/Quicksand-VariableFont_wght.7dd2a729.ttf",
+    "static/media/perfil.58d86e5f.jpg": "/portfolio/static/media/perfil.58d86e5f.jpg",
+    "static/media/testinglibraryblue.56433f17.svg": "/portfolio/static/media/testinglibraryblue.56433f17.svg",
+    "static/media/testinglibrarywhite.2ec7a84f.svg": "/portfolio/static/media/testinglibrarywhite.2ec7a84f.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.43d9a0ba.js",
+    "static/js/2.84af57e6.chunk.js",
+    "static/css/main.7f456b86.chunk.css",
+    "static/js/main.b42cd4d7.chunk.js"
+  ]
+}
